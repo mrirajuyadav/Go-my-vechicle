@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #004aad;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 0.9em;
+}
+
+#booking {
+    padding: 2em;
+    text-align: center;
+}
+
+#booking h2 {
+    font-size: 1.5em;
+    color: #004aad;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+label {
+    font-size: 0.9em;
+}
+
+input[type="text"] {
+    padding: 0.8em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #004aad;
+    color: #fff;
+    padding: 0.8em;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bd1;
+}
+
+#how-it-works {
+    padding: 2em;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#how-it-works h2 {
+    font-size: 1.5em;
+    color: #004aad;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.step img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5em;
+}
+
+.step p {
+    font-size: 0.9em;
+}
+
+#contact {
+    padding: 2em;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+
+#contact h2 {
+    color: #004aad;
+    font-size: 1.5em;
+}
+
+#contact p {
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapido - Bike Taxi Service</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">Rapido</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#book">Book a Ride</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Rapido Bike Taxi</h1>
+        <p>Your trusted bike taxi service. Quick, reliable, and affordable rides for everyone!</p>
+        <button onclick="bookRide()">Book a Ride</button>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="book">
+        <h2>Book a Ride</h2>
+        <form id="bookingForm" onsubmit="submitBooking(event)">
+            <label for="pickup">Pickup Location:</label>
+            <input type="text" id="pickup" placeholder="Enter pickup location" required>
+
+            <label for="drop">Drop Location:</label>
+            <input type="text" id="drop" placeholder="Enter drop location" required>
+
+            <label for="rideType">Ride Type:</label>
+            <select id="rideType">
+                <option value="bike">Bike</option>
+                <option value="auto">Auto</option>
+                <option value="car">Auto</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Why Choose Rapido?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Affordable</h3>
+                <p>We offer the most affordable rides for all distances.</p>
+            </div>
+            <div class="feature">
+                <h3>Safe and Reliable</h3>
+                <p>Our drivers are verified and trained for your safety.</p>
+            </div>
+            <div class="feature">
+                <h3>Fast Service</h3>
+                <p>Quickly find a nearby driver and reach your destination on time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support">
+        <h2>Need Help?</h2>
+        <p>Contact our support team for assistance.</p>
+        <p>Email: support@rapido.com</p>
+        <p>Phone: +123-456-7890</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
